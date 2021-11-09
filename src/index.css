@@ -5,7 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: palegreen;
 }
+
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.memes {
+  margin-top: 50px;
+}
+
+.about {
+  background-color: white;
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.about img {
+  height: 500px;
+}
+
+button {
+  width: 25%;
+  padding: 20px;
+  margin: 10px;
+  font-size: 24px;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
